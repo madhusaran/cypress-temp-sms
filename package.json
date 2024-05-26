@@ -1,0 +1,33 @@
+{
+  "name": "cypress-temp-sms",
+  "version": "1.0.0",
+  "description": "Provides temporary mobile numbers for SMS testing with Cypress",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "types": "src/index.d.ts",
+  "author": "Madhan Raj <madhan6077@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cypress": "^13.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madhusaran/cypress-temp-sms"
+  },
+  "keywords": [
+    "cypress-plugin",
+    "temp otp",
+    "temp sms",
+    "cypress plugin",
+    "Cypress",
+    "cypress-otp",
+    "cypress temp",
+    "cypress temp number"
+  ],
+  "dependencies": {
+
+  }
+}
