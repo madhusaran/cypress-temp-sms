@@ -1,55 +1,59 @@
-# cypress-temp-sms
-A lightweight npm library designed to generate temporary mobile numbers that shall be fot OTP validation as part of end-to-end testing with Cypress. It streamlines the process of testing eSMS-related functionalities in your applications.
+# cypress-temp-sms ✔
+A lightweight npm library designed to generate temporary mobile numbers that shall be used for SMS verification as part of end-to-end testing with Cypress. It streamlines the process of testing OTP,2FA -related functionalities in your applications.
+
+Thanks https://receive-smss.com/ 🙏
 
 # Disclaimer:
-In this plugin, we are using https://receive-smss.com/ to generate temporary numbers and read its SMS inbox. Please note that these are several disposable numbers are to be used **only for testing activities**
+⚠️ In this plugin, we are using https://receive-smss.com/ to generate temporary numbers and read its SMS inbox. Please note that these are several disposable numbers are to be used 👉 **only for testing activities** 👈
 
 ## Features
 
 - **Quick Setup**: Easily integrate with your Cypress tests.
-- **Disposable ESMSs**: Generate temporary eSMSs for testing sign-ups, password resets, and more.
+- **Disposable mobile numbers**: Generate temporary mobile numbers for testing sign-ups, password resets, and more.
 
 
 ## Installation
 
-Install cypress-temp-SMS-sms using npm:
+Install `cypress-temp-sms` using below command:
 
 ```bash 
 npm install cypress-temp-sms --save-dev
 ```
 
 ## Usage
-===
+
+Add below line in your Cypress project  - `cypress/support/commands.js`
+
 ```javascript
-require('cypress-temp-sms')
+import 'cypress-temp-sms'
 ```
-in your Cypress project  - ``cypress/support/commands.js`` file
-===
+
 ## Generate a new temporary number:
 
 ```javascript
-cy.getRandomNumber()  //Retuens you a temp number generated using https://receive-smss.com/
+cy.getRandomNumber()  
+//Returns you a temp number generated using https://receive-smss.com/
 
 ``` 
 ## Generate a new temporary number with specific country:
 
 ```javascript
-cy.getNumberFrom('India')  //Retuens you a temp number generated using https://receive-smss.com/
+cy.getNumberFrom('India')  
+//Returns you a temp number generated using https://receive-smss.com/
 
 ``` 
 
 ## Get the SMS inbox for the genrated number:
 
 ```javascript
-cy.getSMS('+123456789')  //Returns below array object for the SMS inbox data. 
-```
-===
-
-```javascript
-
+cy.getSMS('+123456789') 
+//Returns below array object for the SMS inbox data. ( Last 40 Messages )
 { sender: string, message: any, received: string }[]
 
 ```
 
 ### Contributing
 Contributions are welcome!
+
+
+#HappyTesting

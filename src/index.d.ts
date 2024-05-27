@@ -28,6 +28,6 @@ declare namespace Cypress {
          * @returns 
          * Chainable<{ subject: any; text: any; html: any; inboxMailCount: number }>
          */
-        getSMS(mobileNumber: string): Chainable<{ sender: string, message: any, received: string }[]>
+        getSMS(mobileNumber?: string): Chainable<{ sender: string, message: any, received: string }[]>
     }
 }
