@@ -4,7 +4,8 @@ A lightweight npm library designed to generate temporary mobile numbers that sha
 Thanks https://receive-smss.com/ 🙏
 
 # Disclaimer:
-⚠️ In this plugin, we are using https://receive-smss.com/ to generate temporary numbers and read its SMS inbox. Please note that these are several disposable numbers are to be used 👉 **only for testing activities** 👈
+⚠️ In this plugin, we are using https://receive-smss.com/ to generate temporary numbers and read its SMS inbox. Please note that these are several disposable numbers are to be used 
+👉 **only for testing activities** 👈
 
 ## Features
 

@@ -26,6 +26,7 @@
     "cypress temp number"
   ],
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "cypress": "^13.10.0"
   }
 }
