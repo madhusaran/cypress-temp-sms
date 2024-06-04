@@ -9,4 +9,4 @@ workflows:
             branches:
               only:
                 - release
-          install-command: npm install
+          install-command: npm i
