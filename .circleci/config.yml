@@ -8,5 +8,5 @@ workflows:
           filters:
             branches:
               only:
-                - release
-          install-command: npm i
+                - main
+          install-command: npm install
