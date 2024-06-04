@@ -1,6 +1,8 @@
 
 [![cypress-temp-sms](https://github.com/madhusaran/cypress-temp-sms/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/madhusaran/cypress-temp-sms/actions/workflows/node.js.yml)
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/madhusaran/cypress-temp-sms/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/madhusaran/cypress-temp-sms/tree/main)
+
 # cypress-temp-sms ✔
 A lightweight npm library designed to generate temporary mobile numbers that shall be used for SMS verification as part of end-to-end testing with Cypress. It streamlines the process of testing OTP,2FA -related functionalities in your applications.
 
